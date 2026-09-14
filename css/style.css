@@ -1787,6 +1787,7 @@ body::before {
 .testimonials-track-wrapper {
   overflow: hidden;
   margin-top: var(--space-md);
+  padding-left: clamp(1.25rem, calc((100vw - var(--container-max)) / 2 + 1.25rem), calc((100vw - var(--container-max)) / 2 + 2.5rem));
 }
 
 .testimonials-track {
