@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="20" fill="#0a0a0a"/>
+  <!-- Scissors icon -->
+  <g transform="translate(50,50)" stroke="#C9A84C" stroke-width="4" stroke-linecap="round" fill="none">
+    <!-- Left blade -->
+    <path d="M-5,-30 L-20,5" stroke-width="5"/>
+    <circle cx="-22" cy="10" r="8" fill="none"/>
+    <!-- Right blade -->
+    <path d="M5,-30 L20,5" stroke-width="5"/>
+    <circle cx="22" cy="10" r="8" fill="none"/>
+    <!-- Pivot -->
+    <circle cx="0" cy="-12" r="3" fill="#C9A84C"/>
+    <!-- Handles -->
+    <path d="M-5,-30 Q-8,-38 -12,-35" stroke-width="3"/>
+    <path d="M5,-30 Q8,-38 12,-35" stroke-width="3"/>
+  </g>
+</svg>
